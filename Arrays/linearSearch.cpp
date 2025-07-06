@@ -18,3 +18,4 @@ int main() {
     int key = 34;
     linearSearch(arr,n,key);
 }
+
