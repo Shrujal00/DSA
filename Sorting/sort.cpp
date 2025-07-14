@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 void printArr(int *arr, int n) {
@@ -72,22 +73,29 @@ void countingSort(int *arr, int n) {
     
 }
 
+void inbuiltSort(int *arr, int n) {
+    sort(arr, arr+n);
+    // sort(arr, arr+n, greater<int>()); - Decreasing Order
+}
+
 
 int main() {
     int arr[] = {5,4,1,3,2};
     int n = 5;
-    bubbleSort(arr, n);
+    // bubbleSort(arr, n);
+    // printArr(arr,n);
+    // cout << endl;
+    // selectionSort(arr,n);
+    // printArr(arr,n);
+    // cout << endl;
+    // insertionSort(arr,n);
+    // printArr(arr,n);
+    // cout << endl;
+    // int carr[8] = {1,4,1,3,2,4,3,7};
+    // countingSort(carr,8);
+    // printArr(carr,8);
+    // cout << endl;
+    inbuiltSort(arr,n);
     printArr(arr,n);
-    cout << endl;
-    selectionSort(arr,n);
-    printArr(arr,n);
-    cout << endl;
-    insertionSort(arr,n);
-    printArr(arr,n);
-    cout << endl;
-    int carr[8] = {1,4,1,3,2,4,3,7};
-    countingSort(carr,8);
-    printArr(carr,8);
-
     return 0;
 }
