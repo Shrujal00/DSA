@@ -1,15 +1,12 @@
 #include <iostream>
 using namespace std;
 
-//Bubble sort - Push the largest element to the end until whole array or ds is sorted
-
 void printArr(int *arr, int n) {
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] <<  " ";
     }
 }
-
 
 void bubbleSort(int *arr, int n){
     for(int i = 0; i < n-1; i++) {
@@ -22,7 +19,6 @@ void bubbleSort(int *arr, int n){
         }
     }
 }
-
 
 void selectionSort(int *arr, int n) {
     for (int i = 0; i < n-1; i++)
@@ -53,6 +49,29 @@ void insertionSort(int *arr, int n) {
     }
 }
 
+void countingSort(int *arr, int n) {
+    int freq[10000] = {0};
+    int minVal = INT_MAX, maxVal = INT_MIN;
+    for (int i = 0; i < n; i++)
+    {
+        minVal = min(minVal,arr[i]);
+        maxVal = max(maxVal,arr[i]);
+    }
+    for (int i = 0; i < n; i++)
+    {
+        freq[arr[i]]++;
+    }
+    for (int i = minVal, j=0; i <= maxVal; i++)
+    {
+        while (freq[i] > 0)
+        {
+            arr[j++] = i;
+            freq[i]--;
+        }
+    }
+    
+}
+
 
 int main() {
     int arr[] = {5,4,1,3,2};
@@ -62,5 +81,13 @@ int main() {
     cout << endl;
     selectionSort(arr,n);
     printArr(arr,n);
+    cout << endl;
+    insertionSort(arr,n);
+    printArr(arr,n);
+    cout << endl;
+    int carr[8] = {1,4,1,3,2,4,3,7};
+    countingSort(carr,8);
+    printArr(carr,8);
+
     return 0;
 }
