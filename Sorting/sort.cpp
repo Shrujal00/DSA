@@ -70,7 +70,6 @@ void countingSort(int *arr, int n) {
             freq[i]--;
         }
     }
-    
 }
 
 void inbuiltSort(int *arr, int n) {
