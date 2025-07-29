@@ -11,7 +11,6 @@ bool arrIsSorted(int arr[], int n, int i) {
         return false;
     }
     return arrIsSorted(arr, n, i+1);
-
 }
 
 
