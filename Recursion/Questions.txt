@@ -1,0 +1,13 @@
+Basic:
+-Print N fibonacci
+-FirsOccurence
+-LastOccurence
+-Sum of N Natural Numbers
+-Print N factorial
+-Check If Array is sorted or not Using recursion
+-Occurence of a element in Vector
+
+Intermidiate:
+-Print X^N
+-Tiling Problem
+-Remove Duplicates
