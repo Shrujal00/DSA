@@ -198,7 +198,7 @@ This repository represents our joint effort to:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License -
 
 ## 🙏 Acknowledgments
 
@@ -217,6 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [⭐ Star this repository](https://github.com/Shrujal00/DSA/stargazers) | [🔄 Fork this repository](https://github.com/Shrujal00/DSA/fork)
 
 </div>
+
 
 
 
