@@ -193,7 +193,7 @@ This repository represents our joint effort to:
 
 ## 📞 Contact
 
-- **Aditya Nair**: [GitHub Profile](https://github.com/adityanair)
+- **Aditya Nair**: [GitHub Profile](https://github.com/adityanair2509)
 - **Shrujal**: [GitHub Profile](https://github.com/Shrujal00)
 
 ## 📄 License
@@ -217,6 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [⭐ Star this repository](https://github.com/Shrujal00/DSA/stargazers) | [🔄 Fork this repository](https://github.com/Shrujal00/DSA/fork)
 
 </div>
+
 
 
 
