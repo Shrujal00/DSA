@@ -165,7 +165,7 @@ Our collaborative approach includes:
 
 ## 🏆 Achievements
 
-- **2 Stars** on GitHub
+- **3 Stars** on GitHub
 - **36 Commits** of collaborative learning
 - **100% C++** implementation
 - Systematic topic coverage
@@ -217,6 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [⭐ Star this repository](https://github.com/Shrujal00/DSA/stargazers) | [🔄 Fork this repository](https://github.com/Shrujal00/DSA/fork)
 
 </div>
+
 
 
 
