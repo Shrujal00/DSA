@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/*
+Problem: Generate all possible subarrays of an array.
+Input: An array of integers and its size.
+Output: All contiguous subarrays printed.
+Concept: Nested loops for subarray generation.
+*/
+
 void subArr(int *arr, int n) {
     for (int start = 0; start < n; start++) {
         for (int end = start; end < n; end++) {  // FIX: start from `start`

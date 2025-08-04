@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/*
+Problem: Search for an element in sorted array using recursion.
+Input: Sorted array, target key, start and end indices.
+Output: Index of the key if found, -1 otherwise.
+Concept: Recursive binary search implementation.
+*/
+
 int binSearchUsingRecursion(int arr[], int key, int st, int end) {
     if(st > end) {
         return -1;

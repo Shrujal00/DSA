@@ -1,3 +1,5 @@
+// Basic Apporach of searching
+
 #include <iostream>
 using namespace std;
 

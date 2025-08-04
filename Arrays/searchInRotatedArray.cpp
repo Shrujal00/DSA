@@ -2,6 +2,13 @@
 #include <vector>
 using namespace std;
 
+/*
+Problem: Search for a target element in a rotated sorted array.
+Input: A rotated sorted array and a target key.
+Output: Index of the key if found.
+Concept: Modified binary search for rotated arrays.
+*/
+
 void searchInRotated(int *arr, int n, int key) {
     int st = 0;
     int end = n-1;

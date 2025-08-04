@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/*
+Problem: Calculate trapped rainwater between array elements.
+Input: Array representing heights of bars.
+Output: Total units of water that can be trapped.
+Concept: Pre-computation of left and right maximums.
+*/
+
 void TrapWater(int *height, int n) {
     int leftMax[20000];
     leftMax[0] = height[0];

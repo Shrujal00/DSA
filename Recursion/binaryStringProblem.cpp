@@ -1,3 +1,10 @@
+/*
+Problem: Generate binary strings of size N without consecutive 1s.
+Input: Size N of binary string.
+Output: All valid binary strings printed.
+Concept: Recursive backtracking with constraints.
+*/
+
 #include <iostream>
 using namespace std;
 

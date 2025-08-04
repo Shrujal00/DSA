@@ -1,3 +1,12 @@
+/*
+Problem: Reverse an array.
+Input: An array of integers and its size.
+Output: The array reversed in-place (using extra space).
+Concept: Array traversal with auxiliary array.
+*/
+
+// How to reverse an array easily
+
 #include <iostream>
 using namespace std;
 

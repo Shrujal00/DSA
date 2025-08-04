@@ -2,6 +2,13 @@
 #include <vector>
 using namespace std;
 
+/*
+Problem: Sort an array using merge sort algorithm.
+Input: An unsorted array of integers.
+Output: Array sorted in ascending order.
+Concept: Divide and conquer with merging.
+*/
+
 void merge(vector<int> &arr, int si, int mid, int ei)
 {
     vector<int> temp;

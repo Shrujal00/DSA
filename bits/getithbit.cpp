@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/*
+Problem: Get the i-th bit of a number.
+Input: A number and bit position i.
+Output: Value of the i-th bit (0 or 1).
+Concept: Bitwise operations with bitmask.
+*/
+
 // Get Ith bit
 // num = 6 , i = 2
 

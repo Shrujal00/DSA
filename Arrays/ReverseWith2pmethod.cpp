@@ -1,3 +1,10 @@
+/*
+Problem: Reverse an array in-place using two pointers.
+Input: An array of integers and its size.
+Output: The array reversed in-place.
+Concept: Two pointer technique for array reversal.
+*/
+
 #include <iostream>
 using namespace std;
 
