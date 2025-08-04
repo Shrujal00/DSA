@@ -1,6 +1,6 @@
 ﻿# 🚀 Data Structures & Algorithms Practice Repository
 
-> **Collaborative DSA Learning Journey** by [Shrujal](https://github.com/Shrujal00) & [Aditya Nair](https://github.com/adityanair) 
+> **Collaborative DSA Learning Journey** by [Shrujal](https://github.com/Shrujal00) & [Aditya Nair](https://github.com/adityanair2509) 
 
 [![C++](https://img.shields.io/badge/C++-100%25-blue?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
@@ -165,7 +165,7 @@ Our collaborative approach includes:
 
 ## 🏆 Achievements
 
-- **2 Stars** on GitHub
+- **3 Stars** on GitHub
 - **36 Commits** of collaborative learning
 - **100% C++** implementation
 - Systematic topic coverage
@@ -193,12 +193,12 @@ This repository represents our joint effort to:
 
 ## 📞 Contact
 
-- **Aditya Nair**: [GitHub Profile](https://github.com/adityanair)
+- **Aditya Nair**: [GitHub Profile](https://github.com/adityanair2509)
 - **Shrujal**: [GitHub Profile](https://github.com/Shrujal00)
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License -
 
 ## 🙏 Acknowledgments
 
@@ -217,5 +217,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [⭐ Star this repository](https://github.com/Shrujal00/DSA/stargazers) | [🔄 Fork this repository](https://github.com/Shrujal00/DSA/fork)
 
 </div>
+
+
+
+
+
+
 
 
