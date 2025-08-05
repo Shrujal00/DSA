@@ -163,13 +163,6 @@ Our collaborative approach includes:
 - [x] Vectors
 - [x] Bit Manipulation
 
-## 🏆 Achievements
-
-- **3 Stars** on GitHub
-- **36 Commits** of collaborative learning
-- **100% C++** implementation
-- Systematic topic coverage
-
 ## 🤝 Collaboration
 
 This repository represents our joint effort to:
@@ -217,6 +210,7 @@ This project is licensed under the MIT License -
 [⭐ Star this repository](https://github.com/Shrujal00/DSA/stargazers) | [🔄 Fork this repository](https://github.com/Shrujal00/DSA/fork)
 
 </div>
+
 
 
 
