@@ -2,6 +2,13 @@
 #include <vector>
 using namespace std;
 
+/*
+Problem: Solve Tower of Hanoi puzzle.
+Input: Number of disks and three rod names.
+Output: Sequence of moves to solve the puzzle.
+Concept: Divide and conquer recursion.
+*/
+
 void toh(int n, string source,string helper, string destination) {
     if (n == 0) {
         // Base case: no disks to move

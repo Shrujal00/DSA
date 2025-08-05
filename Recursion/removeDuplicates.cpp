@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/*
+Problem: Remove duplicate characters from a string.
+Input: A string with possible duplicate characters.
+Output: String with duplicates removed, maintaining order.
+Concept: Recursion with character frequency mapping.
+*/
+
 void removeDuplicates(string str, string ans, int i, int map[26]){
     if(i == str.size()) {
         cout << "Ans: " << ans << endl;

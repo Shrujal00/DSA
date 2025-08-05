@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/*
+Problem: Find all occurrences of a key in an array.
+Input: An array, target key, current index, and size.
+Output: All indices where the key occurs.
+Concept: Recursive traversal with condition checking.
+*/
+
 void findAllOccurrences(int arr[], int key, int i, int n) {
     if(i == n) return;
 

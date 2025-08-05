@@ -2,6 +2,13 @@
 #include <vector>
 using namespace std;
 
+/*
+Problem: Find the last occurrence of a key in an array.
+Input: An array, target key, and starting index.
+Output: Index of last occurrence of the key.
+Concept: Recursive search with backtracking.
+*/
+
 int lastOccr(vector<int> nums, int key, int i) {
     if(i == nums.size()) {
         return -1;
