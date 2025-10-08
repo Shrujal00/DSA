@@ -1,85 +1,81 @@
 #include <iostream>
 using namespace std;
 
-#define SIZE 5
+class Stack
+{
+public:
+    int top;
+    int size;
+    int *arr;
 
-int top = -1;
-
-void push(int stack[], int val) {
-    if(top == SIZE - 1) {
-        cout << "Stack Overflow!" << endl;
-    } else {
-        top++;
-        stack[top] = val;
-        cout << "Pushed " << val << " to the stack." << endl;
+    Stack(int s)
+    {
+        size = s;
+        top = -1;
+        arr = new int[size];
+        cout << "Stack of size " << size << "created" << endl;
     }
-}
 
-void pop(int stack[]) {
-    if(top == -1) {
-        cout << "Stack Underflow!" << endl;
-    } else {
-        cout << "Popped " << stack[top] << " from the stack." << endl;
-        top--;
-    }
-}
-
-void peek(int stack[]) {
-    if(top == -1) {
-        cout << "Stack is Empty!" << endl;
-    } else {
-        cout << "Top element is: " << stack[top] << endl;
-    }
-}
-
-void display(int stack[]) {
-    if(top == -1) {
-        cout << "Stack is Empty!" << endl;
-    } else {
-        cout << "Stack elements: ";
-        for(int i = top; i >= 0; i--) {
-            cout << stack[i] << " ";
+    void push(int val)
+    {
+        if (top == size - 1)
+        {
+            cout << "Stack overflow";
+            return;
         }
-        cout << endl;
-    }
-}
-
-int main() {
-    int stack[SIZE];
-    int choice, val;
-
-    do {
-        cout << "--- Stack Menu ---" << endl;
-        cout << "1 > Push\n";
-        cout << "2 > Pop\n";
-        cout << "3 > Peek\n";
-        cout << "4 > Display\n";
-        cout << "5 > Exit\n";
-        cout << "Enter your choice: ";
-        cin >> choice;
-
-        switch (choice) {
-            case 1:
-                cout << "Enter value to push: ";
-                cin >> val;
-                push(stack, val);
-                break;
-            case 2:
-                pop(stack);
-                break;
-            case 3:
-                peek(stack);
-                break;
-            case 4:
-                display(stack);
-                break;
-            case 5:
-                cout << "Exited" << endl;
-                break;
-            default:
-                cout << "Invalid choice" << endl;
+        else
+        {
+            top++;
+            arr[top] = val;
+            cout << "Pushed " << val << endl;
         }
-    } while(choice != 5);
+    }
 
-    return 0;
+    void pop()
+    {
+        if (top == -1)
+        {
+            cout << "Stack underflow";
+            return;
+        }
+        else
+        {
+            cout << "Popped " << arr[top] << endl;
+            top--;
+        }
+    }
+
+    void display()
+    {
+        if (top == -1)
+        {
+            cout << "Stack is empty";
+            return;
+        }
+        else
+        {
+            cout << "Stack (top -> bottom): ";
+            for (int i = top; i >= 0; i--)
+            {
+                cout << arr[i] << " ";
+            }
+            cout << endl;
+        }
+    }
+
+    ~Stack() {
+        delete[] arr;
+        cout << "Stack Memory released!" << endl;
+    }
+};
+
+int main()
+{
+    Stack s1(5);
+    s1.push(10);
+    s1.push(20);
+    s1.push(30);
+    s1.push(40);
+    s1.pop();
+    s1.display();
 }
